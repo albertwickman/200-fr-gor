@@ -1,0 +1,10 @@
+import random
+
+available_users = ['Albert', 'Oskar', 'Jonte', 'Filippa', 'Charlie', 'Emil', 'Simon']
+user_turn = random.choice(available_users)
+
+all_questions = ['bröst eller rumpa?', 'har du npgonsin suttit i fyllecell?', 'är du packad?']
+picked_question = random.choice(all_questions)
+
+print(user_turn + "! " + "Det är din tur!")
+print(picked_question)
